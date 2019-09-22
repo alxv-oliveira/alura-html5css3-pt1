@@ -5,20 +5,48 @@ body {
 	line-height: 1.5;
 }
 
-h1, h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
-}
-
 main h1 {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
 	padding: 25px;
-	border-bottom: 10px solid black;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+}
+
+main a {
+	color: #851944;
+}
+
+main div {
+	width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 p {
-	text-align: justify;
+    text-align: justify;
+    margin: 20px, 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
 }
 
 blockquote {
@@ -26,12 +54,7 @@ blockquote {
 	border: 10px solid #C2CCCA;
 	width: 250px;
     box-sizing: border-box;
-    
-}
-
-aside {
-	background-color: #3C1D3D;
-	color: #F2FFFC;
+    margin: 20px 40px;    
 }
 
 footer {
@@ -39,12 +62,10 @@ footer {
 	color: #F2FFFC;
 }
 
-nav a {
-	color: #F2FFFC;
-}
-
-main a {
-	color: #851944;
+aside {
+	background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
 }
 
 aside a {
@@ -52,15 +73,11 @@ aside a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-blockquote, aside, footer {
-    padding: 20px;
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
-main div {
-	width: 720px;
-	margin: auto;
-}
-
-aside {
-	text-align: center;
+nav a {
+	color: #F2FFFC;
 }
