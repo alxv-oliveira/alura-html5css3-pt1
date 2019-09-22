@@ -85,3 +85,9 @@ nav a {
 .icones-redes-sociais li {
     display: inline-block;
 }
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
