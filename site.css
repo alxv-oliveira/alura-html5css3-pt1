@@ -35,13 +35,26 @@ p {
 .navegacao-site {
 	text-align: center;
 	background-color: #3C1D3D;
-	color: #F2FFFC;
+    color: #F2FFFC;
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
 
 .rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
-	clear: both;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+	float: left;
+    width: 85%;
+    padding-bottom: 80px;
 }
 
 main a {
@@ -131,14 +144,8 @@ nav a {
 	float: left;
 }
 
-main {
-	float: left;
-	width: 85%;
-}
-
 .minha-foto, .navegacao-site {
 	float: right;
-	width: 15%;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
@@ -147,4 +154,10 @@ main {
 cite {
 	font-style: italic;
 	float: right;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
